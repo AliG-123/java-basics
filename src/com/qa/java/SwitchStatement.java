@@ -3,8 +3,7 @@ package com.qa.java;
 public class SwitchStatement {
 
 	public static void main(String[] args) {
-		int day = 3;
-
+		int day = 8;
 		switch (day) {
 		case 1:
 			System.out.println("Day 1 schedule");
