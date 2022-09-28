@@ -9,7 +9,10 @@ public class Product {
 	int discountPercentage;
 	boolean isAvailable;
 	
+	//No arg constructer
+	
 	Product(){
+		System.out.println("No details given. Default Apple product info displayed.");
 		id = 1;
 		name = "Apple";
 		price = 3.25;
@@ -19,6 +22,8 @@ public class Product {
 		isAvailable = true;
 		
 	}
+	
+	//arg constructer
 
 	public Product(int id, String name, double price, String category, double rating, int discountPercentage,
 			boolean isAvailable) {
@@ -32,4 +37,19 @@ public class Product {
 		
 	}
 	
+	//method display product info
+	
+	void productInfo(){
+			System.out.println("Product id: " + id);
+			System.out.println("Product name: " + name);
+			System.out.println("Product Catergory: " + category);
+			System.out.println("Product rating: " + rating + "/5.0");
+			System.out.println("Product in stock: " + isAvailable);
+			System.out.println(discountPercentage + "% discount available");
+			System.out.println("Originial Product Price: £" + price);
+			System.out.println("Discounted Product Price: £" + Math.round((price - (price * discountPercentage / 100))*100.00)/100.00);
+			System.out.println();
+	}
+
+
 }
