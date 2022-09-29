@@ -1,6 +1,6 @@
-package com.qa.java.oop;
+package com.qa.java_exercises;
 
-public class ProductMainWithConstructors {
+public class ProductExercise2And3 {
 	public static void main(String[] args) {
 
 		// No-arg constructor - Default is Apples
@@ -13,6 +13,5 @@ public class ProductMainWithConstructors {
 
 		Product product3 = new Product(3, "Banana", 1.25, "Fruits", 4, 10, true);
 		product3.productInfo();
-
 	}
 }

@@ -1,4 +1,4 @@
-package com.qa.java.oop;
+package com.qa.java_exercises;
 
 public class Product {
 	int id;
@@ -11,7 +11,8 @@ public class Product {
 	
 	
 	final static String SHOP_NAME = "Asda";
-	final static double SHOP_REVENUE = 1029300.91;
+	final static String SHOP_CONTACT_NO= "07329343437";
+	final static String SHOP_EMAIL= "Seller@asda.com";
 	
 	//No arg constructer
 	
@@ -56,9 +57,10 @@ public class Product {
 			System.out.println();
 	}
 
-	static void shopInfo() {
+	static void sellerContactDetails() {
 		System.out.println("Shop name is: " + SHOP_NAME);
-		System.out.println("Shop revenue is: " + SHOP_REVENUE);
+		System.out.println("Shop revenue is: " + SHOP_CONTACT_NO);
+		System.out.println("Shop revenue is: " + SHOP_EMAIL);
 	}
 
 }

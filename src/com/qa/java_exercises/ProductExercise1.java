@@ -1,6 +1,6 @@
-package com.qa.java.oop;
+package com.qa.java_exercises;
 
-public class ProductMain {
+public class ProductExercise1 {
 
 	public static void main(String[] args) {
 		
