@@ -57,10 +57,11 @@ public class Product {
 			System.out.println();
 	}
 
+	//method to display shop info
 	static void sellerContactDetails() {
 		System.out.println("Shop name is: " + SHOP_NAME);
-		System.out.println("Shop revenue is: " + SHOP_CONTACT_NO);
-		System.out.println("Shop revenue is: " + SHOP_EMAIL);
+		System.out.println("Shop phone number is: " + SHOP_CONTACT_NO);
+		System.out.println("Shop email is: " + SHOP_EMAIL);
 	}
 
 }
