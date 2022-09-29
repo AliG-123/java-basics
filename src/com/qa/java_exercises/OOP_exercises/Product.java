@@ -1,4 +1,4 @@
-package com.qa.java_exercises;
+package com.qa.java_exercises.OOP_exercises;
 
 public class Product {
 	int id;
